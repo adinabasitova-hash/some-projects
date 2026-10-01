@@ -1,0 +1,94 @@
+
+.content{
+  display:flex;
+  justify-content:center;
+  margin:5rem;
+  padding:2rem;
+ 
+}
+.inner{
+  background-color:rgb(245, 243, 243);
+  padding:4rem;
+  display:flex;
+  flex-direction:column;
+  gap:1rem
+}
+.input{
+  border: 2px solid blue;
+  padding: 2rem 4rem 2rem 4rem;
+  border-radius:4px
+}
+
+.date{
+border: 2px solid blue;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius:4px
+}
+
+.card{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  border: 2px solid red;
+  margin-top:2rem
+
+
+}
+.dies{
+  grid-column:1 / -1;
+  
+  display:flex;
+  justify-content:center;
+  border-radius:10px;
+  background-color:rgb(247, 239, 194);
+  border: 2px solid blue;
+  margin:1rem;
+  padding:2rem;
+
+}
+.grads{
+  grid-column:1;
+  grid-row: 2 / 3;
+  
+  border-radius:5px;
+  background-color:rgb(247, 239, 194);
+  border: 2px solid blue;
+  margin:1rem;
+  padding:2rem;
+  height:120%;
+
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.max{
+  grid-column: 2;
+  grid-row: 2;
+ border-radius:5px;
+  background-color:rgb(247, 239, 194);
+  border: 2px solid blue;
+  margin:1rem;
+  padding:2rem;
+
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.min{
+  grid-column:2;
+  grid-row:3;
+  border-radius:5px;
+  background-color:rgb(247, 239, 194);
+  border: 2px solid blue;
+  margin:1rem;
+  padding:2rem;
+
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+.result{
+  width:100%
+}
